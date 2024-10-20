@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+     <!-- Tres elementos de tipo <p> -->
+      <p>Este es el primer párrafo.</p>
+      <p>Este es el segundo párrafo.</p>
+      <p>Este es el tercer párrafo.</p>
+  
+      <!-- Botón que dispara la función -->
+      <button id="cambiarColorBtn">Cambiar Color a Azul</button>
+
+<p>----------------------------------------------------</p>
+<form id="miFormulario">
+  <!-- Campo de texto -->
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+  <br><br>
+  <!-- Botón -->
+  <button type="button" id="enviarBtn">Enviar</button>
+</form>
+<p>----------------------------------------------------</p>
+<h2>Lista con elementos</h2>
+<ul id="miLista">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
+  <li>Elemento 5</li>
+</ul>
+<p>----------------------------------------------------</p>
+
+ <!-- Campo de texto y botones -->
+ <input type="text" id="miInput" placeholder="Escribe algo aquí">
+ <br><br>
+ <button id="deshabilitarBtn">Deshabilitar campo</button>
+ <button id="habilitarBtn">Habilitar campo</button>
+ <p>----------------------------------------------------</p>
+
+ 
+  <!-- Formulario con campo para el correo electrónico 
+  <form id="miFormulario">
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+    <br><br>
+    <button type="button" id="guardarBtn">Guardar Correo</button>
+    
+  </form>
+
+Contenedor para mostrar el correo guardado 
+  <div id="contenedorCorreo"></div>
+  <button type="button" id="eliminarBtn">Eliminar Correo</button>
+    <div id="app"></div> -->
+
+<!-- Formulario con campo para el correo electrónico -->
+<form id="miFormulario">
+  <label for="correo">Correo Electrónico:</label>
+  <input type="email" id="correo" name="correo" required>
+  <br><br>
+  <button type="button" id="guardarBtn">Guardar Correo</button>
+</form>
+
+<!-- Contenedor para mostrar el correo guardado -->
+<div id="contenedorCorreo"></div>
+<button type="button" id="eliminarBtn">Eliminar Correo</button>
+<div id="app"></div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
